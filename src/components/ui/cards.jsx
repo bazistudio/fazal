@@ -1,3 +1,5 @@
+
+"use client";
 export default function Cards() {
   const cardData = [
     { title: "Users", value: "1,245" },
