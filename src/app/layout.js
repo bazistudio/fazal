@@ -10,6 +10,8 @@ export const metadata = {
 
 export default function DashboardLayout({ children }) {
   return (
+    <html>
+      <body>
     <div className="flex bg-background text-foreground min-h-screen">
       <Sidebar />
       <div className="flex-1 flex flex-col">
@@ -33,5 +35,7 @@ export default function DashboardLayout({ children }) {
         </main>
       </div>
     </div>
+    </body>
+    </html>
   );
 }
