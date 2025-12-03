@@ -11,10 +11,10 @@ export default function DashboardChart() {
     { name: "Mar", value: 500 },
     { name: "Apr", value: 200 },
     { name: "May", value: 450 },
-    { name: "June", value: 450 },
-    { name: "July", value: 450 },
-    { name: "August", value: 450 },
-    { name: "September", value: 450 },
+    { name: "June", value: 200 },
+    { name: "July", value: 101 },
+    { name: "August", value: 900 },
+    { name: "September", value: 55 },
   ];
 
   return (

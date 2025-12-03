@@ -1,17 +1,9 @@
 "use client"; // Make it a client component
 
 import Link from "next/link";
+import sidebarItems from "./SidebarItems"; // Import sidebar items
 
 export default function Sidebar() {
-  const sidebarItems = [
-    { name: "Dashboard", href: "/dashboard" },
-    { name: "Sales", href: "/dashboard/sales" },
-    { name: "Products", href: "/dashboard/products" },
-    { name: "Customers", href: "/dashboard/customers" },
-    { name: "Reports", href: "/dashboard/reports" },
-    { name: "Settings", href: "/dashboard/settings" },
-  ];
-
   return (
     <aside className="w-64 h-screen bg-background border-r border-border p-4">
       <h1 className="text-xl font-bold mb-6">Fazal Communication</h1>
