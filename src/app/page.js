@@ -1,13 +1,12 @@
-// import { Button } from "@/components/ui/button";
-
-import { Heading1 } from "lucide-react";
+import Cards from "@/components/ui/cards";
+import DashboardChart from "@/components/ui/charts";
 
 export default function Page() {
   return (
-    <h1>naveed gull</h1>
-
-    // <div className="p-6">
-    //   {/* <Button>Test Button</Button> */}
-    // </div>
+    <div className="space-y-6">
+      <h1 className="text-3xl font-bold">Fazal Communication</h1>
+      <Cards />
+      <DashboardChart />
+    </div>
   );
 }
