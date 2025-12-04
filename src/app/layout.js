@@ -1,8 +1,14 @@
 import "../app/globals.css";
+<<<<<<< HEAD
 import Navbar from "../components/ui/Navbar";
 import Sidebar from "../components/ui/Sidebar";
 import Cards from "../components/ui/cards";
 import DashboardChart from "../components/ui/charts";
+=======
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+
+>>>>>>> 940ace0 (update files with first commit)
 
 export const metadata = {
   title: "Fazal Communication",
