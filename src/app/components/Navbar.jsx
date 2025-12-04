@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+"use client";
+
+
+>>>>>>> 3ff65b2 (first commit)
 import { Bell, User, Search } from "lucide-react";
 
 export default function Navbar() {
